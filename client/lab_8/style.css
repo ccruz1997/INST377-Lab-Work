@@ -44,6 +44,7 @@
   }
   
   h2,h3 {
+    text-align: center;
     margin:0;
     padding:0;
     padding-bottom:1rem;
@@ -149,6 +150,7 @@
     margin: 1rem;
     display:flex;
     flex-flow: column;
+    align-items: center;
   }
   
   /*
@@ -278,6 +280,17 @@
     background-color: rgba(213, 224, 54, 0.548);
   }
   
+  
+  /* 
+  Map styles!
+  */
+  
+  #map {
+    display: block;
+    width: 400px;
+    height: 380px;
+    border: 2px dashed #000000; 
+  }
   /*
   Form Styles
   */
